@@ -38,7 +38,7 @@ const toggleMenu = () => {
   setIsOpen(!isOpen);
 };
   return (
-    <nav className=" p-5  bg-[#F9F2DA] w-full z-20 max-h-screen sticky top-0 h-full border border-b-[#8B8B8B] ">
+    <nav className=" p-5 w-full z-20 max-h-screen sticky top-0 h-full ">
         <BackgroundGlow />
       <div className="flex flex-row justify-between items-center  lg:px-20 px-5">
         <Link href="/">
