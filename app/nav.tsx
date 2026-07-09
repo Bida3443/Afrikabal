@@ -55,7 +55,7 @@ const toggleMenu = () => {
         </Link>
 
         {/* Lg NavBar */}
-        <div className="text-black flex hidden lg:block  items-center gap-8">
+        <div className="text-black hidden lg:block  items-center gap-8">
           <div className="flex gap-5 items-center">
             {navv.map((item, index) => (
               <div
