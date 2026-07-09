@@ -9,8 +9,6 @@ import { useState } from "react";
 import { usePathname } from 'next/navigation';
 // import { text } from "stream/consumers";
 
-
- 
 const navv = [
   
   {
@@ -40,8 +38,9 @@ const toggleMenu = () => {
   return (
     <nav className=" p-5 w-full z-20 max-h-screen sticky top-0 h-full ">
         <BackgroundGlow />
-      <div className="flex flex-row justify-between items-center  lg:px-20 px-5">
-        <Link href="/">
+      <div className="flex flex-row justify-between items-center lg:px-20 px-5">
+        <div className=' '>
+            <Link href="/">
           <Image
             src={logo}
             alt="Logo Image"
@@ -50,10 +49,7 @@ const toggleMenu = () => {
             className="w-25 h-15"
           />
         </Link>
-
-        {/* Lg NavBar */}
-        <div className="text-black hidden lg:block  items-center gap-8">
-          <div className="flex gap-5 items-center">
+        <div className="flex justify-start gap-5 items-center">
             {navv.map((item, index) => (
               <div
                 key={index}
@@ -68,6 +64,14 @@ const toggleMenu = () => {
                 </Link>
               </div>
             ))}
+            
+          </div>
+        </div>
+
+        {/* Lg NavBar */}
+        <div className="text-black hidden lg:block  items-center gap-8">
+          <div className="flex gap-5 items-center">
+            
             <a
               href="/contact"
               className="bg-[#F0BD09] transition-all duration-300 hover:bg-amber-50 hover:font-bold hover:text-[#F0BD09] p-2 text-white lg:text-[15px] flex items-center  px-8 rounded-xl"
@@ -76,6 +80,9 @@ const toggleMenu = () => {
             </a>
           </div>
         </div>
+
+
+
 
         {/* Hamburger NavBar */}
 
