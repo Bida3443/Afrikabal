@@ -12,10 +12,7 @@ import { usePathname } from 'next/navigation';
 
  
 const navv = [
-  {
-    text: "Home",
-    link: "/",
-  },
+  
   {
     text: "Features",
     link: "/features",
