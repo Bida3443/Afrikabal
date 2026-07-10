@@ -39,8 +39,9 @@ const toggleMenu = () => {
     <nav className=" p-5 w-full z-20 max-h-screen sticky top-0 h-full ">
         <BackgroundGlow />
       <div className="flex flex-row justify-between items-center lg:px-20 px-5">
-        <div className=' '>
-            <Link href="/">
+        
+       
+        <Link href="/">
           <Image
             src={logo}
             alt="Logo Image"
@@ -49,7 +50,8 @@ const toggleMenu = () => {
             className="w-25 h-15"
           />
         </Link>
-        <div className="flex justify-start gap-5 items-center">
+
+        {/* <div className="flex justify-start gap-5 items-center">
             {navv.map((item, index) => (
               <div
                 key={index}
@@ -64,12 +66,44 @@ const toggleMenu = () => {
                 </Link>
               </div>
             ))}
-            
-          </div>
-        </div>
+        </div> */}
+        {/* Desktop Navbar */}
+<div className="hidden lg:flex items-center justify-between w-full ml-12">
+
+  {/* Navigation Links */}
+  <div className="flex items-center gap-8">
+    {navv.map((item, index) => (
+      <div
+        key={index}
+        className="hover:text-[#F0BD09] transition-all duration-300"
+      >
+        <Link
+          href={item.link}
+          className={`${
+            pathname === item.link
+              ? "text-[#F0BD09] font-bold"
+              : "text-gray-500"
+          }`}
+        >
+          {item.text}
+        </Link>
+      </div>
+    ))}
+  </div>
+
+  {/* Contact Button */}
+  <a
+    href="/contact"
+    className="bg-[#F0BD09] transition-all duration-300 hover:bg-amber-50 hover:font-bold hover:text-[#F0BD09] py-2 px-8 rounded-xl text-white"
+  >
+    Contact Us
+  </a>
+
+</div>
+        
 
         {/* Lg NavBar */}
-        <div className="text-black hidden lg:block  items-center gap-8">
+        {/* <div className="text-black hidden lg:block  items-center gap-8">
           <div className="flex gap-5 items-center">
             
             <a
@@ -79,9 +113,7 @@ const toggleMenu = () => {
               Contact Us
             </a>
           </div>
-        </div>
-
-
+        </div> */}
 
 
         {/* Hamburger NavBar */}
@@ -146,6 +178,8 @@ const toggleMenu = () => {
         </div>
       </div>
     </nav>
+
+    
   );
 }
   
