@@ -8,6 +8,8 @@ export default function hero() {
     <div className="relative z-10">
         {/* Hero */}
         <div>dddddddddddddddddddd</div>
+        <div>dddddddddddddddddddd</div>
+        <div>dddddddddddddddddddd</div>
     </div>
 </section>
 )}
