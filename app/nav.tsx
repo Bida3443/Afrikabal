@@ -94,9 +94,9 @@ const toggleMenu = () => {
   {/* Contact Button */}
   <a
     href="/contact"
-    className="bg-[#F0BD09] transition-all duration-300 hover:bg-amber-50 hover:font-bold hover:text-[#F0BD09] py-2 px-8 rounded-xl text-white"
+    className="bg-[#A5CD39] transition-all duration-300 hover:font-bold hover:text-[#fffff] p-2 text-black lg:text-[15px] flex items-center  px-8 rounded-xl"
   >
-    Contact Us
+    Get afrikabal app
   </a>
 
 </div>
@@ -125,7 +125,7 @@ const toggleMenu = () => {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 384 512"
-                className="h-7 w-7 fill-[#F0BD09] "
+                className="h-7 w-7 fill-[#A5CD39] "
               >
                 <path d="M55.1 73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L147.2 256 9.9 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192.5 301.3 329.9 438.6c12.5 12.5 32.8 12.5 45.3 0s-12.5-32.8 0-45.3L237.8 256 375.1 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192.5 210.7 55.1 73.4z" />
               </svg>
@@ -134,7 +134,7 @@ const toggleMenu = () => {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 448 512"
-                className="h-7 w-7 fill-[#F0BD09]"
+                className="h-7 w-7 fill-[#A5CD39]"
               >
                 <path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z" />
               </svg>
@@ -143,7 +143,7 @@ const toggleMenu = () => {
 
              </div>
                 <div
-                    className={`lg:hidden fixed top-25 left-0  w-70 bg-[#F9F2DA]   
+                    className={`lg:hidden fixed top-25 left-0  w-70 bg-[#F7F3BE]   
               transform transition-transform duration-300 ease-in-out
               ${isOpen ? "translate-x-0" : "-translate-x-full"}`}
             >
@@ -167,9 +167,9 @@ const toggleMenu = () => {
             ))}
             <a
               href="/contact"
-              className="bg-[#F0BD09] transition-all duration-300 hover:bg-amber-50 hover:font-bold hover:text-[#F0BD09] p-2 text-white lg:text-[15px] flex items-center  px-8 rounded-xl"
+              className="bg-[#A5CD39] transition-all duration-300 hover:font-bold hover:text-[#fffff] p-2 text-black lg:text-[15px] flex items-center  px-8 rounded-xl"
             >
-              Contact Us
+              Get afrikabal app
             </a>
           </div>
         </div>
