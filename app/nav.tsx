@@ -36,7 +36,7 @@ const toggleMenu = () => {
   setIsOpen(!isOpen);
 };
   return (
-    <nav className=" p-5 w-full z-20 max-h-screen sticky top-0 h-full ">
+    <nav className=" p-5 w-full z-20 max-h-screen h-full">
         <BackgroundGlow />
       <div className="flex flex-row justify-between items-center lg:px-20 px-5">
         
@@ -89,7 +89,7 @@ const toggleMenu = () => {
         </Link>
       </div>
     ))}
-  </div>
+  </div>     
 
   {/* Contact Button */}
   <a
