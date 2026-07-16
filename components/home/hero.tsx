@@ -22,36 +22,40 @@ export default function hero() {
                     <Image src={Google} alt="App" width={200} height={200} className="w-30 h-10" />
                 </div>
 
-                <div className="relative mx-auto mt-24 h-162.5 w-225">
+                <div className="relative mx-auto mt-20 h-[500px] w-[900px] overflow-hidden">
 
                     {/* Left Phone */}
-                    <Image
-                        src={phone3}
-                        alt="Left Phone"
-                        width={280}
-                        height={560}
-                        className="absolute left-12 bottom-0 z-10"
-                    />
+                    <div className="absolute bottom-0 left-20 z-10 h-[380px] w-[220px] overflow-hidden rounded-[40px] border-[6px] border-black bg-white">
+                        <Image
+                            src="/phone-left.png"
+                            alt="Left Phone"
+                            fill
+                            className="object-cover object-top"
+                        />
+                    </div>
 
                     {/* Center Phone */}
-                    <Image
-                        src="/phone-center.png"
-                        alt="Center Phone"
-                        width={320}
-                        height={640}
-                        className="absolute left-1/2 bottom-0 z-20 -translate-x-1/2"
-                    />
+                    <div className="absolute left-1/2 bottom-0 z-20 h-[520px] w-[270px] -translate-x-1/2 overflow-hidden rounded-[48px] border-[7px] border-black bg-white">
+                        <Image
+                            src="/phone-center.png"
+                            alt="Center Phone"
+                            fill
+                            className="object-cover object-top"
+                        />
+                    </div>
 
                     {/* Right Phone */}
-                    <Image
-                        src="/phone-right.png"
-                        alt="Right Phone"
-                        width={280}
-                        height={560}
-                        className="absolute right-12 bottom-0 z-10"
-                    />
+                    <div className="absolute bottom-0 right-20 z-10 h-[380px] w-[220px] overflow-hidden rounded-[40px] border-[6px] border-black bg-white">
+                        <Image
+                            src="/phone-right.png"
+                            alt="Right Phone"
+                            fill
+                            className="object-cover object-top"
+                        />
+                    </div>
 
                 </div>
+
 
             </div>
         </section>
