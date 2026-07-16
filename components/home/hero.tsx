@@ -12,6 +12,11 @@ export default function hero() {
 
         </div>
         <div>vvvvv</div>
+        <div>eeeeee</div>
+        <div>eeeeee</div>
+        <div>eeeeee</div>
+        <div>eeeeee</div>
+        <div>eeeeee</div>
     </div>
 </section>
 )}
