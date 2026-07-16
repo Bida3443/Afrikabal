@@ -36,7 +36,7 @@ const toggleMenu = () => {
   setIsOpen(!isOpen);
 };
   return (
-    <nav className=" relative z-50 w-full py-5">
+    <nav className="relative z-50 w-full py-5">
         <BackgroundGlow />
       <div className="flex flex-row justify-between items-center lg:px-20 px-5">
         
