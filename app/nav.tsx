@@ -36,7 +36,7 @@ const toggleMenu = () => {
   setIsOpen(!isOpen);
 };
   return (
-    <nav className=" p-5 w-full z-20 max-h-screen h-full">
+    <nav className=" relative z-50 w-full py-5">
         <BackgroundGlow />
       <div className="flex flex-row justify-between items-center lg:px-20 px-5">
         
@@ -51,23 +51,7 @@ const toggleMenu = () => {
           />
         </Link>
 
-        {/* <div className="flex justify-start gap-5 items-center">
-            {navv.map((item, index) => (
-              <div
-                key={index}
-                className="hover:text-[#F0BD09] transition-all duration-300"
-              >
-                <Link href={item.link} className={`${
-        pathname === item.link
-          ? 'text-[#F0BD09] font-bold'
-          : 'text-gray-500'
-      }`}>
-                  {item.text}
-                </Link>
-              </div>
-            ))}
-        </div> */}
-        {/* Desktop Navbar */}
+    {/* Navbar */}
 <div className="hidden lg:flex items-center justify-between w-full ml-12">
 
   {/* Navigation Links */}
@@ -98,24 +82,7 @@ const toggleMenu = () => {
   >
     Get afrikabal app
   </a>
-
 </div>
-        
-
-        {/* Lg NavBar */}
-        {/* <div className="text-black hidden lg:block  items-center gap-8">
-          <div className="flex gap-5 items-center">
-            
-            <a
-              href="/contact"
-              className="bg-[#F0BD09] transition-all duration-300 hover:bg-amber-50 hover:font-bold hover:text-[#F0BD09] p-2 text-white lg:text-[15px] flex items-center  px-8 rounded-xl"
-            >
-              Contact Us
-            </a>
-          </div>
-        </div> */}
-
-
         {/* Hamburger NavBar */}
 
         <div className="lg:hidden">
@@ -174,13 +141,9 @@ const toggleMenu = () => {
           </div>
         </div>
   </div>
-
         </div>
       </div>
     </nav>
-
-    
   );
 }
   
-

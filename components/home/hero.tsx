@@ -2,7 +2,7 @@ import BackgroundGlow from "./background";
 
 export default function hero() {
   return (
-<section className="relative overflow-hidden h-screen bg-white">
+<section className="relative min-h-screen overflow-hidden">
     <BackgroundGlow />
 
     <div className="relative z-10 flex flex-col justify-center items-center space-y-5 w-full lg:h-[60vh] h-[20vh]">
