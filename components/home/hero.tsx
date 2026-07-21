@@ -22,7 +22,7 @@ export default function hero() {
                     <Image src={Google} alt="App" width={200} height={200} className="w-30 h-10" />
                 </div>
 
-               <div className="relative mx-auto translate-y-12 h-[650px] w-[900px]">
+               <div className="relative mx-auto translate-y-12 h-162.5 w-225">
     {/* Left Phone */}
     <Image
         src={phone3}
