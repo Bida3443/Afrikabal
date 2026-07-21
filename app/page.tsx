@@ -1,5 +1,7 @@
 import Hero from "@/components/home/hero";
 import Nav from "./nav";
+import Sectionone from "@/components/home/sectionone";
+
 
 
 export default function Home() {
@@ -7,6 +9,7 @@ export default function Home() {
     <div>
       <Nav/>
       <Hero/>
+      <Sectionone/>
     </div>
   );
 }
