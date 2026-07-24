@@ -19,15 +19,12 @@ export default function  sectiontwo  () {
             <div className='space-y-5'>
               <h1 className='text-4xl font-medium text-[#A5CD39]'>Finance</h1>
               <h1 className='text-4xl font-medium text-[#C6C6C6]'>Agriculture</h1>
-              <div>
-                <p className='font-semibold text-2xl pb-2'>Send, receive and request money <br /> and crypto on Afrikabal app</p>
-              <p className='lg:max-w-155 max-w-80.5'>Easily send, receive, and request money and cryptocurrency with the Afrikabal app. Seamlessly transfer funds and manage your finances with just a few taps. Join the digital revolution and experience secure, fast, and convenient transactions on Afrikabal.</p>
-              </div>
+            
 
        
 
             </div>
-            <div><Image src={phonne} alt='' width={500} height={700}/></div>
+            
           </div>
         </div>
 
