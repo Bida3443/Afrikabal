@@ -29,7 +29,7 @@ export default function hero() {
         alt="Left Phone"
         width={280}
         height={560}
-        className="absolute left-12 bottom-0  z-10"
+        className="absolute left-12 bottom-0 rounded-[50px] border-[6px] border-black z-10"
     />
 
     {/* Center Phone */}
@@ -47,7 +47,7 @@ export default function hero() {
         alt="Right Phone"
         width={280}
         height={560}
-        className="absolute right-12 bottom-0 z-10"
+        className="absolute right-12 rounded-[50px] border-[6px] border-black bottom-0 z-10"
     />
 </div>
 
