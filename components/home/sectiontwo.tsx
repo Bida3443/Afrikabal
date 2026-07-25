@@ -15,15 +15,13 @@ export default function  sectiontwo  () {
             <Image src={slash} alt='' width={200} height={200}/>
             <h1 className='font-semibold  text-3xl'>Feel the best experience with <br /> our features</h1>
           </div>
-          <div className='flex mt-30 gap-20 justify-center'>
-            <div className='space-y-5'>
-              <h1 className='text-4xl font-medium text-[#A5CD39]'>Finance</h1>
-              <h1 className='text-4xl font-medium text-[#C6C6C6]'>Agriculture</h1>
-            
-
-       
-
+          <div className='grid lg:grid-cols-3 grid-cols-2 mt-30 gap-20 justify-center'>
+            <div className=''>
+                <h1>sssssssssss</h1>
+                <p>ddddddddd</p>
             </div>
+            <div>dddddddddddddd</div>
+            <div>dddddddddddddd</div>
             
           </div>
         </div>
